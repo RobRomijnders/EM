@@ -21,8 +21,11 @@ The visualizations aim to show the effect of locally approximating the log likel
 
 # Results
   * The red lines plot the complete data log likelihood. We see this function is non-convex. Sometimes, we also observe the local maxima next to the global maximum
-  * The blue lines plot the expected log likelihood. This can be interpreted a local approximation to the log likelihood. We observe that it is convex
+  * The blue lines plot the expected log likelihood. This can be interpreted a local approximation to the log likelihood. We observe that it is convex.
 
+  Note that these results are cherry picked. Also EM can get stuck in local minima!
+
+ ![gif0](https://github.com/RobRomijnders/EM/blob/master/im/EM_cherry5.gif?raw=true)
  ![gif1](https://github.com/RobRomijnders/EM/blob/master/im/EM_cherry4.gif?raw=true)
  ![gif2](https://github.com/RobRomijnders/EM/blob/master/im/EM_cherry3.gif?raw=true)
  ![gif3](https://github.com/RobRomijnders/EM/blob/master/im/EM_cherry1.gif?raw=true)
